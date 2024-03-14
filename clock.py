@@ -5,6 +5,8 @@ from time import strftime
 window = Tk()
 window.title("Digital Clock")
 
+def clock():
+    screen = strftime("%H:%M:%S %p")
 
 
 window.mainloop()
