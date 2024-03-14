@@ -10,7 +10,8 @@ def clock():
     label.config(text=screen)
     label.after(1000, clock)
 
-label = Label(window, font=("digital-1",50, "bold"), background="black", foreground="green")
+label = Label(window, font=("digital-7",35, "italic"), background="black", foreground="green")
+label.pack()
 
-
+clock()
 window.mainloop()
